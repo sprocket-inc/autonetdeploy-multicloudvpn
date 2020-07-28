@@ -30,7 +30,7 @@ variable "aws_region" {
 
 variable "aws_instance_type" {
   description = "Machine Type. Includes 'Enhanced Networking' via ENA."
-  default     = "r4.2xlarge"
+  default     = "t3.micro"
 }
 
 variable "aws_disk_image" {
